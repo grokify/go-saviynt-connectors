@@ -11,7 +11,7 @@
 
 Features, Issues, and Pull Requests are always welcome.
 
- [build-status-svg]: https://github.com/grokify/go-saviynt-connectors/workflows/test/badge.svg?branch=master
+ [build-status-svg]: https://github.com/grokify/go-saviynt-connectors/workflows/test/badge.svg?branch=main
  [build-status-url]: https://github.com/grokify/go-saviynt-connectors/actions
  [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/go-saviynt-connectors
  [goreport-url]: https://goreportcard.com/report/github.com/grokify/go-saviynt-connectors
