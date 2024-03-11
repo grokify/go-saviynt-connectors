@@ -13,13 +13,13 @@ func main() {
 
 	set := gosaviyntconnectors.NewConnectionSet()
 	err := set.ReadDir(dir, true)
-	fmtutil.PrintJSON(err)
+	fmtutil.MustPrintJSON(err)
 
 	for connKey, conn := range set.Map {
 		fmt.Printf("PROC (%s)\n", connKey)
 		fmtutil.PrintJSON(conn)
 		names := conn.ExternalAttrs.Names(true, true, true, true)
-		fmtutil.PrintJSON(names)
+		fmtutil.MustPrintJSON(names)
 		break
 	}
 

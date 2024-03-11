@@ -5,7 +5,6 @@ import (
 	"regexp"
 
 	"github.com/grokify/gocharts/v2/data/histogram"
-	"github.com/grokify/mogo/fmt/fmtutil"
 	"github.com/grokify/mogo/os/osutil"
 )
 
@@ -49,9 +48,6 @@ func (set *ConnectionSet) ReadDir(dir string, recursive bool) error {
 			} else if err := set.ReadDir(filepath.Join(dir, sdirName), recursive); err != nil {
 				return err
 			}
-		}
-		if len(sdirs.Names("")) > 0 {
-			fmtutil.PrintJSON(sdirs.Names(""))
 		}
 	}
 	return nil

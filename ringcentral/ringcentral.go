@@ -26,7 +26,7 @@ func Connection() saviyntconnectors.ConnectionMap {
 	ra := saviyntconnectors.RequestsAttribute{
 		Name: "CreateAccountJSON",
 		Requests: saviyntconnectors.Requests{
-			AccountIdPath: "call1.message.id",
+			AccountIDPath: "call1.message.id",
 			ResponseColsToPropsMap: map[string]string{
 				"name": "call1.message.userName~#~char",
 			},

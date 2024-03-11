@@ -20,7 +20,7 @@ func (ra RequestsAttribute) ExtendedAttr() (ExternalAttr, error) {
 }
 
 type Requests struct {
-	AccountIdPath          string            `json:"accountIdPath"`
+	AccountIDPath          string            `json:"accountIdPath"`
 	ResponseColsToPropsMap map[string]string `json:"responseColsToPropsMap"`
 	Calls                  []Call            `json:"call"`
 }
