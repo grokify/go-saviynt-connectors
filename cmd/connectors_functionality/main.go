@@ -17,7 +17,7 @@ func main() {
 
 	for connKey, conn := range set.Map {
 		fmt.Printf("PROC (%s)\n", connKey)
-		fmtutil.PrintJSON(conn)
+		fmtutil.MustPrintJSON(conn)
 		names := conn.ExternalAttrs.Names(true, true, true, true)
 		fmtutil.MustPrintJSON(names)
 		break
