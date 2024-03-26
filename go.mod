@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/grokify/gocharts/v2 v2.18.2
-	github.com/grokify/mogo v0.63.2
+	github.com/grokify/mogo v0.63.4
 )
 
 require (
@@ -22,7 +22,7 @@ require (
 	github.com/xuri/excelize/v2 v2.8.1 // indirect
 	github.com/xuri/nfp v0.0.0-20230919160717-d98342af3f05 // indirect
 	golang.org/x/crypto v0.21.0 // indirect
-	golang.org/x/exp v0.0.0-20240222234643-814bf88cf225 // indirect
+	golang.org/x/exp v0.0.0-20240325151524-a685a6edb6d8 // indirect
 	golang.org/x/net v0.22.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	gonum.org/v1/gonum v0.14.0 // indirect
