@@ -3,8 +3,8 @@ module github.com/grokify/go-saviynt-connectors
 go 1.22.0
 
 require (
-	github.com/grokify/gocharts/v2 v2.18.7
-	github.com/grokify/mogo v0.63.11
+	github.com/grokify/gocharts/v2 v2.19.1
+	github.com/grokify/mogo v0.64.1
 )
 
 require (
@@ -22,7 +22,8 @@ require (
 	github.com/xuri/excelize/v2 v2.8.1 // indirect
 	github.com/xuri/nfp v0.0.0-20240318013403-ab9948c2c4a7 // indirect
 	golang.org/x/crypto v0.23.0 // indirect
-	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 // indirect
+	golang.org/x/exp v0.0.0-20240525044651-4c93da0ed11d // indirect
+	golang.org/x/image v0.16.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/text v0.15.0 // indirect
 	gonum.org/v1/gonum v0.15.0 // indirect
