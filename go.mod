@@ -3,8 +3,8 @@ module github.com/grokify/go-saviynt-connectors
 go 1.22.0
 
 require (
-	github.com/grokify/gocharts/v2 v2.20.5
-	github.com/grokify/mogo v0.65.3
+	github.com/grokify/gocharts/v2 v2.21.1
+	github.com/grokify/mogo v0.66.0
 )
 
 require (
